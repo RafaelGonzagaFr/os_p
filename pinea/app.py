@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 origins = [
     "https://pineaos-rafaelgonzagafrs-projects.vercel.app",
-    # ou "*" para liberar todas as origens (não recomendado em produção)
+    "https://pineaos.vercel.app"
 ]
 
 app = FastAPI(
